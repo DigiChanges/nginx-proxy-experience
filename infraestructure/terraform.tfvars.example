@@ -1,0 +1,4 @@
+do_token=""
+FINGERPRINT=""
+DOMAIN="example.com"
+SUB_DOMAIN="sub1"
