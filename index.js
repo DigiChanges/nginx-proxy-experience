@@ -1,5 +1,5 @@
 const fs = require('fs');
-const domains = require('./config');
+const { domains } = require('./config');
 
 const getUpstreams = (domains) =>
 {
@@ -165,7 +165,7 @@ for (const domain of domains)
 }
 
 const nginx = `
-include /etc/nginx/http.nginx.conf
+include /etc/nginx/http.nginx.conf;
 
 `;
 
