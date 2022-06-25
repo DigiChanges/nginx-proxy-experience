@@ -25,6 +25,6 @@ node create_certificates.js
 
 rm -rf /etc/nginx/nginx.conf
 
-echo "include /etc/nginx/http.nginx.conf" >> /etc/nginx/nginx.conf
+echo "include /etc/nginx/https.nginx.conf;" >> /etc/nginx/nginx.conf
 
 service nginx restart
