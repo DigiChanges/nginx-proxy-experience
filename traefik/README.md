@@ -31,7 +31,7 @@ services:
 1. Install apache2-utils
 
 ```bash
-apt install apache2-utils
+apt install apache2-utils -y
 ```
 
 2. Generate username and password for simple auth traefik dashbooard. Replace `secure_password` for your `password`.
